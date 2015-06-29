@@ -1,0 +1,31 @@
+.menu-sekitar-anda {
+	ul {
+		margin: 0;
+	}
+
+	li {
+		list-style: none;
+	}
+
+	a {
+		display: block;
+		color: $blue-grey;
+		padding: .5rem 1.5rem;
+		font-size: 14px;
+		// font-weight: 500;
+
+		&:hover {
+			background-color: #eee;
+		}
+	}
+
+	img {
+		width: 1.5em;
+		margin-right: 1em;
+		vertical-align: top;
+	}
+
+	li.active a {
+		background-color: #eee;
+	}
+}

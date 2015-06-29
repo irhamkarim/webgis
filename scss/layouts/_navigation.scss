@@ -1,0 +1,43 @@
+.main-navigation {
+	display: table-cell;
+	height: 100%;
+	width: 230px;
+	position: relative;
+	vertical-align: top;
+	padding-top: 2rem;
+	background-color: #fff;
+	box-shadow: $materialz2;
+	z-index: 98;
+}
+
+.secondary-navigation {
+	display: table-cell;
+	height: 100%;
+	width: 230px;
+	position: relative;
+	vertical-align: top;
+	/* padding-top: 2rem; */
+	background-color: #fff;
+	box-shadow: $materialz2;
+	z-index: 98;
+}
+
+.menu-title {
+	padding: 1rem;
+	// margin-bottom: 1rem;
+	// border-bottom: 1px solid #d4d4d4;
+	// text-align: center;
+
+	h6 {
+		margin: 0;
+		color: #1565c0;
+		font-weight: 500;
+		line-height: 2.2em;
+	}
+
+	img {
+		width: 2.2em;
+		vertical-align: middle;
+		margin-right: 1em;
+	}
+}

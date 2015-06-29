@@ -1,0 +1,33 @@
+#map {
+	display: table-cell;
+	height: 100%;
+	position: relative;
+	background-color: #e4e4e4;
+
+	vertical-align: top;
+}
+
+
+// CONTOH SAJA
+
+#my-location {
+	height: 50px;
+	position: absolute;
+	right: 1rem;
+	bottom: 1rem;
+}
+
+#compass {
+	height: 40px;
+	position: absolute;
+	right: 1.3rem;
+	bottom: 5rem;
+}
+
+#traffic {
+	width: 210px;
+	position: absolute;
+	right: 50%;
+	bottom: 1rem;
+	margin-right: -105px;
+}

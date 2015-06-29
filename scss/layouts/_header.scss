@@ -1,0 +1,40 @@
+.header	{
+	width: 100%;
+	height: 80px;
+	background-color: $blue;
+	position: absolute;
+	z-index: 99;
+	overflow: hidden;
+	text-align: center;
+	box-shadow: $materialz1;
+
+	img {
+		height: 100%;
+	}
+}
+
+.logo-dishub {
+	height: 100%;
+	padding: 14px 1.5rem;
+	float: left;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.logo-app {
+	height: 100%;
+	padding: 12px 0;
+	display: inline-block;
+}
+
+.logo-title {
+	height: 100%;
+	padding: 24px 1.5rem;
+	float: right;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}

@@ -1,0 +1,22 @@
+.footer {
+	position: absolute;
+	bottom: 0;
+	border-top: 1px solid #eee;
+	padding: .5em 1.5em .5em;
+	width: 100%;
+	text-align: center;
+	
+	img {
+		opacity: .25;
+		width: 1.5rem;
+
+		&:hover {
+			opacity: .4;
+		}
+	}
+
+	p {
+		margin: 0;
+		line-height: 1em;
+	}
+}

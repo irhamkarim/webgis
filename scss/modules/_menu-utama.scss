@@ -1,0 +1,101 @@
+.menu-utama {
+	ul {
+		margin: 0;
+	}
+
+	li {
+		list-style: none;
+	}
+
+	a {
+		display: block;
+		color: #bababa;
+		padding: .2rem 1.5rem;
+		font-size: 14px;
+		font-weight: 500;
+
+		&:hover {
+			color: $blue;
+		}
+	}
+
+	li.active a {
+		color: $blue;
+	}
+
+	li a:before {
+		content: ' ';
+		display: inline-block;
+		width: 3em;
+		height: 3em;
+		margin: 0 1em 0 0;
+		vertical-align: middle;
+		background-color: transparent;
+		background-size: 3em 3em;
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+	
+	li:nth-child(1) a:before {
+		background-image: url(../images/icon-menu/menu-utama/icon-grey_jalur-mudik.png);
+	}
+	li:nth-child(1).active a:before {
+		background-image: url(../images/icon-menu/menu-utama/icon_jalur-mudik.png);
+	}
+
+	li:nth-child(2) a:before {
+		background-image: url(../images/icon-menu/menu-utama/icon-grey_sekitar-anda.png);
+	}
+	li:nth-child(2).active a:before {
+		background-image: url(../images/icon-menu/menu-utama/icon_sekitar-anda.png);
+	}
+
+	li:nth-child(3) a:before {
+		background-image: url(../images/icon-menu/menu-utama/icon-grey_info-lalin.png);
+	}
+	li:nth-child(3).active a:before {
+		background-image: url(../images/icon-menu/menu-utama/icon_info-lalin.png);
+	}
+
+	li:nth-child(4) a:before {
+		background-image: url(../images/icon-menu/menu-utama/icon-grey_petunjuk-jalan.png);
+	}
+	li:nth-child(4).active a:before {
+		background-image: url(../images/icon-menu/menu-utama/icon_petunjuk-jalan.png);
+	}
+
+	li:nth-child(5) a:before {
+		background-image: url(../images/icon-menu/menu-utama/icon-grey_cuaca.png);
+	}
+	li:nth-child(5).active a:before {
+		background-image: url(../images/icon-menu/menu-utama/icon_cuaca.png);
+	}
+
+	li:nth-child(6) a:before {
+		background-image: url(../images/icon-menu/menu-utama/icon-grey_gempa.png);
+	}
+	li:nth-child(6).active a:before {
+		background-image: url(../images/icon-menu/menu-utama/icon_gempa.png);
+	}
+
+	li:nth-child(7) a:before {
+		background-image: url(../images/icon-menu/menu-utama/icon-grey_cctv.png);
+	}
+	li:nth-child(7).active a:before {
+		background-image: url(../images/icon-menu/menu-utama/icon_cctv.png);
+	}
+
+	li:nth-child(8) a:before {
+		background-image: url(../images/icon-menu/menu-utama/icon-grey_nomer-penting.png);
+	}
+	li:nth-child(8).active a:before {
+		background-image: url(../images/icon-menu/menu-utama/icon_nomer-penting.png);
+	}
+
+	li:nth-child(9) a:before {
+		background-image: url(../images/icon-menu/menu-utama/icon-grey_rttmc.png);
+	}
+	li:nth-child(9).active a:before {
+		background-image: url(../images/icon-menu/menu-utama/icon_rttmc.png);
+	}
+}

@@ -1,0 +1,60 @@
+.menu-jalur-mudik {
+
+	li {
+		list-style: none;
+	}
+
+	a {
+		display: block;
+		color: $blue-grey;
+		padding: .4rem 2rem;
+		font-size: 14px;
+		font-weight: 500;
+
+		&:hover {
+			background-color: #eee;
+		}
+	}
+
+	li.active a {
+		// color: $blue;
+		// background-color: lighten($blue,15%);
+		background-color: #eee;
+	}
+}
+
+.menu-jalur-mudik__category {
+	margin: 0;
+}
+
+.menu-jalur-mudik__category-title {
+	position: relative;
+	z-index: 1;
+	margin: 1.5em 0 .7em;
+
+	&:before {
+		border-top: 1px solid #dfdfdf;
+		content: "";
+		margin: 0 auto;
+		position: absolute;
+		top: 50%;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		z-index: -1;
+	}
+
+	span {
+		font-size: 15px;
+		font-weight: bold;
+		color: $blue;
+		color: #aaa;
+		font-family: $font-secondary;
+		background: #fff;
+		// color: #999;
+		padding: 0 1em;
+		margin-left: 1.1em;
+	}
+
+}
