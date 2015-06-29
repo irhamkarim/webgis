@@ -1,5 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:700,700italic);
 /* line 1, ../scss/base/_base.scss */
 html, body {
   width: 100%;
@@ -3225,22 +3223,26 @@ th.hide-for-touch {
   z-index: 98;
   overflow: hidden;
 }
+/* line 25, ../scss/layouts/_navigation.scss */
+.secondary-navigation.petunjuk-jalan {
+  width: 275px;
+}
 
-/* line 27, ../scss/layouts/_navigation.scss */
+/* line 30, ../scss/layouts/_navigation.scss */
 .menu-title {
   padding: 1rem;
   animation: slideIn 500ms ease 1;
   -webkit-animation: slideIn 500ms ease 1;
   -moz-animation: slideIn 500ms ease 1;
 }
-/* line 37, ../scss/layouts/_navigation.scss */
+/* line 40, ../scss/layouts/_navigation.scss */
 .menu-title h6 {
   margin: 0;
   color: #1565c0;
   font-weight: 600;
   line-height: 2.2em;
 }
-/* line 44, ../scss/layouts/_navigation.scss */
+/* line 47, ../scss/layouts/_navigation.scss */
 .menu-title img {
   width: 2.2em;
   vertical-align: middle;
@@ -3526,8 +3528,123 @@ th.hide-for-touch {
   margin-left: 1.1em;
 }
 
+/* line 1, ../scss/modules/_menu-petunjuk-jalan.scss */
+.form-petunjuk-jalan {
+  position: relative;
+}
+
+/* line 5, ../scss/modules/_menu-petunjuk-jalan.scss */
+.form-petunjuk-jalan-item {
+  padding: 0 0 0 1rem;
+  position: relative;
+}
+/* line 9, ../scss/modules/_menu-petunjuk-jalan.scss */
+.form-petunjuk-jalan-item img {
+  height: 1.2rem;
+  opacity: .8;
+}
+/* line 14, ../scss/modules/_menu-petunjuk-jalan.scss */
+.form-petunjuk-jalan-item input {
+  text-overflow: ellipsis;
+  border: none;
+  color: #555;
+  background: none;
+  height: 2.3em;
+  line-height: 2.3em;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  width: 75%;
+  margin: .6em 0em .6em 1em;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  border-bottom: 1px solid #4f98ec;
+}
+
+/* line 34, ../scss/modules/_menu-petunjuk-jalan.scss */
+#petunjuk-jalan-connector {
+  position: absolute;
+  height: 2.2em;
+  bottom: 0;
+  margin-bottom: -1.1em;
+  left: 8px;
+  opacity: .4;
+}
+
 /* line 1, ../scss/modules/_reveal-modal.scss */
 .reveal-modal {
   text-align: center;
   color: #555;
+}
+
+/* line 2, ../scss/modules/_checkbox-form.scss */
+.checkbox-form label {
+  cursor: pointer;
+  display: block;
+}
+/* line 7, ../scss/modules/_checkbox-form.scss */
+.checkbox-form input {
+  display: none;
+}
+/* line 11, ../scss/modules/_checkbox-form.scss */
+.checkbox-form-item {
+  padding: .5rem 1rem;
+}
+/* line 15, ../scss/modules/_checkbox-form.scss */
+.checkbox-form-image {
+  display: inline-block;
+  height: 1.6em;
+  width: 1.6em;
+  margin-right: 10px;
+  vertical-align: middle;
+  background-image: url(../images/check_box_outline.svg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/* line 27, ../scss/modules/_checkbox-form.scss */
+.checkbox-form input:checked + .checkbox-form-image {
+  background-image: url(../images/check_box.svg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/* line 34, ../scss/modules/_checkbox-form.scss */
+.checkbox-form p {
+  display: inline-block;
+  margin: 0;
+  color: #777;
+  line-height: 2em;
+  font-weight: 600;
+  font-size: 14px;
+}
+/* line 43, ../scss/modules/_checkbox-form.scss */
+.checkbox-form img {
+  height: 2em;
+  margin-right: 1em;
+}
+
+/* line 1, ../scss/modules/_button.scss */
+.button-container {
+  margin: 2rem 0;
+  padding: 0 2em;
+}
+
+/* line 7, ../scss/modules/_button.scss */
+.button {
+  background: #f50057;
+  padding: .6em;
+  width: 100%;
+  border-radius: .3em;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+  line-height: 1.6;
+}
+/* line 20, ../scss/modules/_button.scss */
+.button:hover {
+  background: #dc004e;
 }

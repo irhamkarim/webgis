@@ -1,0 +1,41 @@
+.form-petunjuk-jalan {
+	position: relative;
+}
+
+.form-petunjuk-jalan-item {
+	padding: 0 0 0 1rem;
+	position: relative;
+
+	img {
+		height: 1.2rem;
+		opacity: .8;
+	}
+	
+	input {
+		text-overflow: ellipsis;
+		border: none;
+		color: #555;
+		background: none;
+		height: 2.3em;
+		line-height: 2.3em;
+
+		margin: 0;
+		padding: 0;
+		outline: none;
+
+		width: 75%;
+		margin: .6em 0em .6em 1em;
+		font-size: 15px;
+		font-family: $font-main;
+		border-bottom: 1px solid lighten($blue, 20%);
+	}
+}
+
+#petunjuk-jalan-connector {
+	position: absolute;
+	height: 2.2em;
+	bottom: 0;
+	margin-bottom: -1.1em;
+	left: 8px;
+	opacity: .4;
+}

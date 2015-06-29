@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Info Lalin</title>
+    <title>Petunjuk Jalan</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
   </head>
   <body>
@@ -27,8 +27,8 @@
           <ul>
             <li ><a href="index.html">Jalur Mudik</a></li>
             <li ><a href="sekitar-anda.html">Sekitar Anda</a></li>
-            <li class="active"><a href="info-lalin.html">Info Lalin</a></li>
-            <li ><a href="petunjuk-jalan.html">Petunjuk Jalan</a></li>
+            <li ><a href="info-lalin.html">Info Lalin</a></li>
+            <li class="active"><a href="petunjuk-jalan.html">Petunjuk Jalan</a></li>
             <li ><a href="cuaca.html">Cuaca</a></li>
             <li ><a href="gempa.html">Gempa</a></li>
             <li ><a href="cctv.html">CCTV</a></li>
@@ -54,48 +54,25 @@
         <img id="traffic" src="images/traffic.png" alt="">
       </div>
 
-      <aside class="secondary-navigation">
+      <aside class="secondary-navigation petunjuk-jalan">
         <hgroup class="menu-title">
-          <h6><img src="images/icon-menu/menu-utama/icon_info-lalin.png" alt="">Info Lalin</h6>
+          <h6><img src="images/icon-menu/menu-utama/icon_petunjuk-jalan.png" alt="">Petunjuk Jalan</h6>
         </hgroup>
-        <nav class="menu-info-lalin">
-          <div class="checkbox-form">
-            <div class="checkbox-form-item">
-              <label>
-                <input type="checkbox" value="">
-                <span class="checkbox-form-image"></span>
-                <p><img src="images/icon-menu/info-lalin/kemacetan.png">Kemacetan</p>
-              </label>
+        <nav class="menu-petunjuk-jalan">
+          <form action="" class="form-petunjuk-jalan">
+            <div class="form-petunjuk-jalan-item">
+              <img src="images/my_location.svg" alt="">
+              <input type="text" placeholder="Choose starting point" />
+              <img id="petunjuk-jalan-connector" src="images/more_vert.svg" alt="">
             </div>
-            <div class="checkbox-form-item">
-              <label>
-                <input type="checkbox" value="">
-                <span class="checkbox-form-image"></span>
-                <p><img src="images/icon-menu/info-lalin/polisi.png">Polisi</p>
-              </label>
+            <div class="form-petunjuk-jalan-item">
+              <img src="images/place.svg" alt="">
+              <input type="text" placeholder="Choose destination" />
             </div>
-            <div class="checkbox-form-item">
-              <label>
-                <input type="checkbox" value="">
-                <span class="checkbox-form-image"></span>
-                <p><img src="images/icon-menu/info-lalin/kecelakaan.png">Kecelakaan</p>
-              </label>
+            <div class="button-container">
+              <button class="button">Search</button>
             </div>
-            <div class="checkbox-form-item">
-              <label>
-                <input type="checkbox" value="">
-                <span class="checkbox-form-image"></span>
-                <p><img src="images/icon-menu/info-lalin/bencana.png">Bencana</p>
-              </label>
-            </div>
-            <div class="checkbox-form-item">
-              <label>
-                <input type="checkbox" value="">
-                <span class="checkbox-form-image"></span>
-                <p><img src="images/icon-menu/info-lalin/lainlain.png">Lain-Lain</p>
-              </label>
-            </div>
-          </div>
+          </form>
         </nav>
       </aside>
 
