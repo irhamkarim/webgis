@@ -25,20 +25,25 @@
       <aside class="main-navigation">
         <nav class="menu-utama">
           <ul>
-            <li ><a href="#">Jalur Mudik</a></li>
-            <li ><a href="#">Sekitar Anda</a></li>
-            <li ><a href="#">Info Lalin</a></li>
-            <li ><a href="#">Petunjuk Jalan</a></li>
-            <li class="active"><a href="#">Cuaca</a></li>
-            <li ><a href="#">Gempa</a></li>
-            <li ><a href="#">CCTV</a></li>
+            <li ><a href="index.html">Jalur Mudik</a></li>
+            <li ><a href="sekitar-anda.html">Sekitar Anda</a></li>
+            <li ><a href="info-lalin.html">Info Lalin</a></li>
+            <li ><a href="petunjuk-jalan.html">Petunjuk Jalan</a></li>
+            <li class="active"><a href="cuaca.html">Cuaca</a></li>
+            <li ><a href="gempa.html">Gempa</a></li>
+            <li ><a href="cctv.html">CCTV</a></li>
             <li ><a href="#">Nomer Penting</a></li>
             <li ><a href="#">RTTMC</a></li>
           </ul>
         </nav>
         <footer class="footer">
-          <a href="#"><img src="images/info.svg" alt=""></a>
-          <!-- <p><small>Kementerian Perhubungan Republik Indonesia Direktorat Jenderal Perhubungan Darat © WebGIS RTTMC 2014</small></p> -->
+          <a href="#" data-reveal-id="webgisInfo"><img src="images/info.svg" alt=""></a>
+
+          <div id="webgisInfo" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+            <h3 id="modalTitle">About DISHUB WebGIS</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur quia ipsam tempore dolorum similique ipsum molestiae laudantium, soluta pariatur earum placeat. Ea, unde. Quae dolorum ad eaque, esse at totam.</p>
+            <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+          </div>
         </footer>
       </aside>
     
@@ -51,6 +56,8 @@
 
     </main>
 
-
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>

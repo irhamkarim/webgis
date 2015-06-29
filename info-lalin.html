@@ -25,20 +25,25 @@
       <aside class="main-navigation">
         <nav class="menu-utama">
           <ul>
-            <li ><a href="#">Jalur Mudik</a></li>
-            <li ><a href="#">Sekitar Anda</a></li>
-            <li class="active"><a href="#">Info Lalin</a></li>
-            <li ><a href="#">Petunjuk Jalan</a></li>
-            <li ><a href="#">Cuaca</a></li>
-            <li ><a href="#">Gempa</a></li>
-            <li ><a href="#">CCTV</a></li>
+            <li ><a href="index.html">Jalur Mudik</a></li>
+            <li ><a href="sekitar-anda.html">Sekitar Anda</a></li>
+            <li class="active"><a href="info-lalin.html">Info Lalin</a></li>
+            <li ><a href="petunjuk-jalan.html">Petunjuk Jalan</a></li>
+            <li ><a href="cuaca.html">Cuaca</a></li>
+            <li ><a href="gempa.html">Gempa</a></li>
+            <li ><a href="cctv.html">CCTV</a></li>
             <li ><a href="#">Nomer Penting</a></li>
             <li ><a href="#">RTTMC</a></li>
           </ul>
         </nav>
         <footer class="footer">
-          <a href="#"><img src="images/info.svg" alt=""></a>
-          <!-- <p><small>Kementerian Perhubungan Republik Indonesia Direktorat Jenderal Perhubungan Darat © WebGIS RTTMC 2014</small></p> -->
+          <a href="#" data-reveal-id="webgisInfo"><img src="images/info.svg" alt=""></a>
+
+          <div id="webgisInfo" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+            <h3 id="modalTitle">About DISHUB WebGIS</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur quia ipsam tempore dolorum similique ipsum molestiae laudantium, soluta pariatur earum placeat. Ea, unde. Quae dolorum ad eaque, esse at totam.</p>
+            <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+          </div>
         </footer>
       </aside>
     
@@ -55,27 +60,24 @@
         </hgroup>
         <nav class="menu-sekitar-anda">
           <ul>
-            <li ><a href="#"><img src="images/icon-menu/sekitar-anda/posko_mudik.png" alt="">Posko Mudik</a></li>
-            <li ><a href="#"><img src="images/icon-menu/sekitar-anda/kantor_polisi.png" alt="">Kantor Polisi</a></li>
-            <li class="active"><a href="#"><img src="images/icon-menu/sekitar-anda/rumah_sakit.png" alt="">Rumah Sakit</a></li>
-            <li ><a href="#"><img src="images/icon-menu/sekitar-anda/restoran.png" alt="">Restoran</a></li>
-            <li ><a href="#"><img src="images/icon-menu/sekitar-anda/atm.png" alt="">Atm</a></li>
-            <li ><a href="#"><img src="images/icon-menu/sekitar-anda/bank.png" alt="">Bank</a></li>
-            <li ><a href="#"><img src="images/icon-menu/sekitar-anda/terminal_bus.png" alt="">Terminal Bus</a></li>
-            <li ><a href="#"><img src="images/icon-menu/sekitar-anda/stasiun_ka.png" alt="">Stasiun KA</a></li>
-            <li ><a href="#"><img src="images/icon-menu/sekitar-anda/bandara.png" alt="">Bandara</a></li>
-            <li ><a href="#"><img src="images/icon-menu/sekitar-anda/pom_bensin.png" alt="">Pom Bensin</a></li>
-            <li ><a href="#"><img src="images/icon-menu/sekitar-anda/bengkel.png" alt="">Bengkel</a></li>
-            <li ><a href="#"><img src="images/icon-menu/sekitar-anda/hotel.png" alt="">Hotel</a></li>
-            <li ><a href="#"><img src="images/icon-menu/sekitar-anda/masjid.png" alt="">Masjid</a></li>
-            <li ><a href="#"><img src="images/icon-menu/sekitar-anda/gereja.png" alt="">Gereja</a></li>
-            <li ><a href="#"><img src="images/icon-menu/sekitar-anda/jembatan_timbang.png" alt="">Jembatan Timbang</a></li>
+            <li ><a href="#"><img src="images/icon-menu/info-lalin/kemacetan.png" alt="">Kemacetan</a></li>
+            <li ><a href="#"><img src="images/icon-menu/info-lalin/kecelakaan.png" alt="">Polisi</a></li>
+            <li ><a href="#"><img src="images/icon-menu/info-lalin/polisi.png" alt="">Kecelakaan</a></li>
+            <li ><a href="#"><img src="images/icon-menu/info-lalin/bencana.png" alt="">Bencana</a></li>
+            <li ><a href="#"><img src="images/icon-menu/info-lalin/lainlain.png" alt="">lain-Lain</a></li>
+            <img src="images/check_box.svg" alt="">
+            <img src="images/check_box_outline.svg" alt="">
           </ul>
+        </nav>
+        <nav class="menu-info-lalin">
+          
         </nav>
       </aside>
 
     </main>
 
-
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
