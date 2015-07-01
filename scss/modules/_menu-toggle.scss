@@ -1,0 +1,41 @@
+.menu-toggle {
+	padding: 1.2rem;
+	margin-bottom: .5rem;
+	border-bottom: 1px solid #eee;
+
+	.menu-collapse & {
+		// text-align: center;
+	}
+}
+
+.menu-toggle__button {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color: $pink;
+	box-shadow: $materialz2;
+	border-radius: 100rem;
+	cursor: pointer;
+
+	&:hover {
+		background-color: darken($pink, 8%);
+	}
+
+	&:before {
+		content: ' ';
+		display: inline-block;
+		width: 35px;
+		height: 35px;
+		vertical-align: middle;
+		background-color: transparent;
+		background-size: 25px 25px;
+		background-position: center center;
+		background-repeat: no-repeat;
+
+		background-image: url(../images/chevron_left.svg);
+	}
+
+	.menu-collapse &:before {
+		background-image: url(../images/menu.svg);
+	}
+}

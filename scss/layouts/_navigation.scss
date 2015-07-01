@@ -1,19 +1,31 @@
 .main-navigation {
 	display: table-cell;
 	height: 100%;
-	width: 230px;
+	width: 220px;
 	position: relative;
 	vertical-align: top;
-	padding-top: 2rem;
+	// padding-top: 2rem;
 	background-color: #fff;
 	box-shadow: $materialz2;
 	z-index: 98;
+
+	// -moz-transition: all 200ms linear;
+	// -webkit-transition: all 200ms linear;
+	// transition: all 200ms linear;
+
+	.menu-collapse & {
+		width: 40px;
+
+		-moz-transition: all 200ms linear;
+		-webkit-transition: all 200ms linear;
+		transition: all 200ms linear;
+	}
 }
 
 .secondary-navigation {
 	display: table-cell;
 	height: 100%;
-	width: 230px;
+	width: 220px;
 	position: relative;
 	vertical-align: top;
 	background-color: #fff;
